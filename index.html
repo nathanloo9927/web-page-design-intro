@@ -3,6 +3,7 @@
 <head>
     <title>Computer repair shop</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="login.js"></script>
 </head>
 <body>
     <p><img src="repair-homepage.jpg"></p>
@@ -10,32 +11,17 @@
     <header>
     <section>
         <fieldset>
-        <legend>New Users</legend>
-        <form action="next.html">
-            <p>First Name</p>
-            <input type="text" name="firstname" required>
-            <p>Last Name</p>
-            <input type="text" name="lastname" required>
-            <p>Create a Username</p>
-            <input type="text" name="username" required>
-            <p>Create a Password</p>
-            <input type="password" name="pass" required>
-            <p>Phone</p>
-            (<input type="tel" name="phone" size="1" maxlength="3" required>) - <input
-            type="tel" name="phone" size="1" maxlength="3" required> - <input type="tel"
-            name="phone" size="1" maxlength="4" required>
-            <p>Email (Optional)</p>
-            <input type="email" name="email"><br><br>
-            <input type="radio" name="gender" value="male" required>Male<br>
-            <input type="radio" name="gender" value="female" required>Female<br><br>
-            <input type="checkbox" name="option" value="notify" checked>Send me notifications
-            and messages to my Email<br>
-            <input type="checkbox" name="option" value="agree" required>I agree to the terms
-            and conditions<br><br>
-            <button type="submit">Start</button>
+        <legend>Please Login</legend>
+        <form id="form_id">
+            <p>Username</p>
+            <input type="text" name="username" id="username" required>
+            <p>Password</p>
+            <input type="password" name="pass" id="pass" required>
+            <button type="button" value="Login" id="submit" onclick="validate()">Start</button>
         </form>
         </fieldset>
     </section>
+    <!---
     <article>
         <fieldset>
         <legend>Existing Users</legend>
@@ -59,6 +45,7 @@
         </form>
         </fieldset>
     </article>
+    --->
     </header>
 </body>
 </html>
