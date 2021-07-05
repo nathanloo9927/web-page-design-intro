@@ -1,0 +1,39 @@
+* {margin:0;
+    padding:0}
+
+body {width:1000px; margin:auto}
+
+nav {background-color:#74E600;
+     width:1000px;
+     height:25px;
+     text-align:center}
+
+header {background-color:#ABF000;
+        width:1000px;
+        height:500px}
+
+.one {background-color:#ABF000;
+      width:1000px;
+      height:150px;}
+
+.two {background-color:#ABF000;
+      width:495px;
+      height:200px;
+      margin-top:5px;
+      margin-right:5px;
+      float:left}
+
+.three {background-color:#ABF000;
+        width:495px;
+        height:200px;
+        margin-top:5px;
+        margin-left:5px;
+        float:right}
+
+table {margin:auto}
+
+td {background-color:#C0F400;
+    width:195px;
+    height:20px;}
+
+ul {margin-left:20px}

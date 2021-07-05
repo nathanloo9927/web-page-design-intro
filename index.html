@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Computer repair shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <p><img src="repair-homepage.jpg"></p>
+    
+    <header>
+    <section>
+        <fieldset>
+        <legend>New Users</legend>
+        <form action="next.html">
+            <p>First Name</p>
+            <input type="text" name="firstname" required>
+            <p>Last Name</p>
+            <input type="text" name="lastname" required>
+            <p>Create a Username</p>
+            <input type="text" name="username" required>
+            <p>Create a Password</p>
+            <input type="password" name="pass" required>
+            <p>Phone</p>
+            (<input type="tel" name="phone" size="1" maxlength="3" required>) - <input
+            type="tel" name="phone" size="1" maxlength="3" required> - <input type="tel"
+            name="phone" size="1" maxlength="4" required>
+            <p>Email (Optional)</p>
+            <input type="email" name="email"><br><br>
+            <input type="radio" name="gender" value="male" required>Male<br>
+            <input type="radio" name="gender" value="female" required>Female<br><br>
+            <input type="checkbox" name="option" value="notify" checked>Send me notifications
+            and messages to my Email<br>
+            <input type="checkbox" name="option" value="agree" required>I agree to the terms
+            and conditions<br><br>
+            <button type="submit">Start</button>
+        </form>
+        </fieldset>
+    </section>
+    <article>
+        <fieldset>
+        <legend>Existing Users</legend>
+        <form action="next.html">
+            <p>Username/Email:</p>
+            <input type="text" name="user" required>
+            <p>Password</p>
+            <input type="password" name="pword" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Forgot Your Username/Password?</legend>
+        <form>
+            <p>Type your Email below. We will send you a letter to your Email for your next
+            step.</p><br>
+            <p>Email</p>
+            <input type="email" name="recoveraccount" required><br><br>
+            <button type="submit">Send letter</button>
+        </form>
+        </fieldset>
+    </article>
+    </header>
+</body>
+</html>
