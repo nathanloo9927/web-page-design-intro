@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Computer Repair Shop - Donation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="donation.js"></script>
+</head>
+<body>
+    <p><img src="repair.jpg"></p>
+    <nav>
+    <table>
+        <tr>
+            <td><a href="next.html">Back to Homepage</a></td>
+            <td><a href="then.html">Browse Products</a></td>
+            <td><a href="finally.html">Contact Us</a></td>
+            <td><a href="index.html">Log Out</a></td>
+        </tr>
+    </table>
+    </nav>
+    <header>
+    <h3 style="text-align:center">Make a donation to the computer repair shop</h3>
+    <p>Were you satisfied with our services? Looking for other ways to support us? Consider making a
+        donation to us. You can also leave a comment or feedback. We strive to create the best
+        service in computer repairs, and any feedback is more than welcome
+    </p>
+    <section>
+        <fieldset>
+        <legend>Donations</legend>
+        <form>
+            <p>Popular Amounts</p>
+            <input type="radio" name="donation" value="5" required> $5<br>
+            <input type="radio" name="donation" value="10" required> $10<br>
+            <input type="radio" name="donation" value="25" required> $25<br>
+            <input type="radio" name="donation" value="25" required> Custom amount $
+            <input type="text" name="donate" id="donate_amount"><br>
+            <p>Comments (optional)</p>
+            <textarea id="w3review" name="w3review" rows="4" cols="25"></textarea><br>
+            <button type="button" onclick="donate()">Make donation</button>
+        </form>
+        </fieldset>
+    </section>
+    </header>
+</body>
+</html>
